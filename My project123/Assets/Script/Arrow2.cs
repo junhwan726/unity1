@@ -2,17 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arrow2 : MonoBehaviour
+public class Arrow : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public GameObject player;
+    public Transform nextPos;
     // Update is called once per frame
     void Update()
     {
+        ArrowLeft();
+    }
+    public void ArrowLeft()
+    {
         
+        transform.Translate(-0.1f, 0, 0);
+
+        // 화면 밖으로 나오면 오브젝트를 소멸시킨다
+        if (transform.position.x < -13.0f)
+        {
+            transform.position = nextPos.position;
+        }
+
+        // 충돌 판정
+        Vector2 p1 = transform.position;              // 화살의 중심 좌표
+        Vector2 p2 = this.player.transform.position;  // 플레이어의 중심 좌표
+        Vector2 dir = p1 - p2;
+        float d = dir.magnitude;
+        float r1 = 0.5f;  // 화살의 반경
+        float r2 = 1.0f;  // 플레이어의 반경
+
+        if (d < r1 + r2) //r1+r2의 값이 클수록 멀어지는것 r1+r2 값이 작아질수록 가까워지는것
+        {
+            // 충돌한 경우는 화살을 지운다
+            transform.position = nextPos.position;
+        }
+
     }
 }

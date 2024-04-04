@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAE40\uC900\uD658\\shooting\\My project123\\",
+  "WorkspaceRootPath": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|c:\\users\\samsung\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAE40\uC900\uD658\\shooting\\my project123\\assets\\script\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|c:\\users\\samsung\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\my project123\\assets\\script\\arrow2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\arrow2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|c:\\users\\samsung\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\my project123\\assets\\script\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAE40\uC900\uD658\\shooting\\My project123\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABEA57A3-F86A-07E3-0D23-0D858F513DE5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,23 +27,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Arrow2.cs",
+              "DocumentMoniker": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\Assets\\Script\\Arrow2.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Arrow2.cs",
+              "ToolTip": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\Assets\\Script\\Arrow2.cs",
+              "RelativeToolTip": "Assets\\Script\\Arrow2.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA8wBoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:06:46.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Arrow.cs",
-              "DocumentMoniker": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAE40\uC900\uD658\\shooting\\My project123\\Assets\\Script\\Arrow.cs",
+              "DocumentMoniker": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\Assets\\Script\\Arrow.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Arrow.cs",
-              "ToolTip": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAE40\uC900\uD658\\shooting\\My project123\\Assets\\Script\\Arrow.cs*",
-              "RelativeToolTip": "Assets\\Script\\Arrow.cs*",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBEAAAAeAAAA",
+              "ToolTip": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\Assets\\Script\\Arrow.cs",
+              "RelativeToolTip": "Assets\\Script\\Arrow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T10:25:36.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAE40\uC900\uD658\\shooting\\My project123\\Assets\\Script\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAE40\uC900\uD658\\shooting\\My project123\\Assets\\Script\\Player.cs",
+              "ToolTip": "C:\\Users\\Samsung\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\unity1\\My project123\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAADwvyYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
