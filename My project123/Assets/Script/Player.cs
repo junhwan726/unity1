@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
     private bool isTouchRigth;
     private bool isTouchLeft;
+    private bool isTouchUp;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,10 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow) &&! isTouchRigth)
         {
             transform.Translate(speed, 0, 0); // 오른쪽으로 「3」 움직인다
+        }
+        if (Input.GetKey(KeyCode.UpArrow) && !isTouchUp)
+        {
+            transform.Translate(0, 0.3f, 0); 
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
